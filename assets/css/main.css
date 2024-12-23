@@ -1,15 +1,3 @@
-/**
-* Template Name: Medicio
-* Template URL: https://bootstrapmade.com/medicio-free-bootstrap-theme/
-* Updated: Aug 07 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-/*--------------------------------------------------------------
-# Font & Color Variables
-# Help: https://bootstrapmade.com/color-system/
---------------------------------------------------------------*/
 /* Fonts */
 :root {
   --default-font: "Poppins", sans-serif;
@@ -683,8 +671,8 @@ h6 {
   position: fixed;
   visibility: hidden;
   opacity: 0;
-  right: 15px;
-  bottom: 15px;
+  right: clamp(10px, 5%, 15px); /* Adjust dynamically */
+  bottom: clamp(10px, 5%, 15px);
   z-index: 99999;
   background-color: var(--accent-color);
   width: 40px;
